@@ -1,0 +1,138 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+    background-color: #181818;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0 4 vw;
+    position: fixed;
+    width: 100%;
+}
+a
+{
+    color:#fcfbf8;
+    text-decoration: none;
+}
+.headerleft
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.headerleft a img
+{
+    width: 130px;
+    
+    margin-left: 60px;
+}
+nav
+{
+    display: flex;
+    gap: 20px;
+    color: #fcfbf8;
+}
+.headerright 
+{
+   margin-right: 60px;
+   
+}
+.headerright .login
+{
+    width: 80px;
+    height: 30px;
+   
+    border-radius: 2px;
+    background-color: transparent;
+    border-width: .5px;
+    border-color: rgb(200, 197, 197);
+    border-radius: 6px;
+    font-weight: 400px;
+    margin: 5px;
+    color:white;
+    cursor:pointer;
+}
+.getstarted
+{
+    width: 100px;
+    height: 32px;
+    border-width: .5px;
+    border-color: white;
+  
+    font-weight: 400px;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    cursor:pointer;
+    
+}
+.headerleft a:hover
+{
+    opacity: 0.6;
+}
+nav :hover
+{
+    opacity: 0.6;;
+}
+.login:hover
+{
+    background-color: rgb(70, 68, 68);
+}
+.getstarted:hover
+{
+    background-color: rgb(207, 202, 202);
+}
+.resourceoption
+{
+    background-color: blue;
+   height: 100px;
+   
+    width: 230px;
+    position: absolute;
+    border-radius: 10px;
+    border: 2px solid;
+    /* display: none; */
+   background-color: rgb(0, 0, 0);
+    top: 8vh;
+    display: none;
+}
+.resourcecontainer
+{
+    position: relative;
+    
+}
+.resourcecontainer p:hover+.resourceoption
+{
+    display: flex;
+    gap: 8px;
+    flex-direction: column  ;
+   
+}
+.resourcecontainer p:hover i
+{
+    rotate: 180deg;
+   
+}
+.resourcecontainer p i
+{
+transition: 500ms;
+}
+main img
+{
+   width: 100%;
+   position: absolute;
+   z-index: -999;
+   top: 0;
+   scale: 2;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
