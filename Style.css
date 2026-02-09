@@ -435,7 +435,7 @@ ul
 }
 footer img
 {
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
     display: inline;
     justify-content: left;
     margin-top: 60px;
@@ -443,9 +443,9 @@ footer img
     width:50px;
     height: 50px;
 }
-.foot li,p
+.foot li,.foot p
 {
-    /* margin: 12px; */
+    margin: 12px;
 }
 .foot p
 {
@@ -462,7 +462,7 @@ footer img
 } */
 @media(width<=760px)
 {
-    
+
 }
 .foot li
 {
