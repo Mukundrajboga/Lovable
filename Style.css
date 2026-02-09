@@ -415,3 +415,56 @@ main
 {
     padding-left: 70px;
 }
+footer
+{
+    border:10px solid rgb(119, 0, 238);
+    background-color: #262424;
+    
+}
+.foot
+{
+    display: flex;
+    gap:100px;
+    border:5px solid peru;
+    margin-left: 300px;
+    margin-top: -56px;
+}
+ul
+{
+    
+}
+footer img
+{
+    border: 5px solid blue;
+    display: inline;
+    justify-content: left;
+    margin-top: 60px;
+    margin-left: 60px;
+    width:50px;
+    height: 50px;
+}
+.foot li,p
+{
+    /* margin: 12px; */
+}
+.foot p
+{
+    font-weight:400;
+    font-size: 16px;
+    color:gray;
+}
+/* @media (width<=1024px)
+{
+    .headerleft nav
+    {
+        display: none;
+    }
+} */
+@media(width<=760px)
+{
+    
+}
+.foot li
+{
+color:white;
+}
