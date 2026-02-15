@@ -1,1 +1,2 @@
-Created only Front-end part of the website as it is.
+Created only Front-end part of the Lovable website as it is by applying front-end skills
+
